@@ -420,3 +420,13 @@ a {
     font-size: 3.5rem;
   }
 }
+#thank-you-hero > div {
+  grid-area: thank-you-hero;
+}
+#thank-you-hero > div p {
+  padding-top: 16px;
+  color: var(--forestGreen);
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
