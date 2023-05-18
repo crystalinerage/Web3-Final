@@ -16,9 +16,22 @@ $screen-lg-min: 1024px;
 $screen-xl-min: 1200px;
 
 
+// XTRA Large desktops
+$screen-xXl-min: 1440px;
+
+
 // Colors vars
 :root {
   --black: #000000;
   --white: #ffffff;
+  --darkTeal: #286460;
+  --baseTeal: #4BA09B;
+  --lightCyan: #C7F4F2;
+  --listestCyan: #C6F4F2;
+  --brightSage: #A6DFA9;
+  --baseGreen: #4BA059;
+  --brightGreen: #6DCC76;
+  --forestGreen: #296428;
+
 }
 

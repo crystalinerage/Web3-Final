@@ -13,6 +13,14 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --darkTeal: #286460;
+  --baseTeal: #4BA09B;
+  --lightCyan: #C7F4F2;
+  --listestCyan: #C6F4F2;
+  --brightSage: #A6DFA9;
+  --baseGreen: #4BA059;
+  --brightGreen: #6DCC76;
+  --forestGreen: #296428;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
