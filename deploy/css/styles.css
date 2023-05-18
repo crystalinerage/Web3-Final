@@ -335,9 +335,35 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.thank-you-top-spacing {
+  padding-top: 16px;
+}
+@media (min-width: 1024px) {
+  .thank-you-top-spacing {
+    padding-top: 32px;
+  }
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -362,6 +388,10 @@ textarea {
 /* =============
     Navigation
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Header
 ============= */
@@ -371,3 +401,22 @@ textarea {
 /* =============
     Thank You Page 
 ============= */
+#thank-you-hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ".thank-you-hero.";
+}
+#thank-you-hero > div {
+  grid-area: thank-you-hero;
+}
+#thank-you-hero > div h1 {
+  color: var(--forestGreen);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25rem;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  #thank-you-hero > div h1 {
+    font-size: 3.5rem;
+  }
+}

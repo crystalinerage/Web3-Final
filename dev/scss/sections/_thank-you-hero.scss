@@ -1,3 +1,30 @@
 /* =============
     Thank You Page 
 ============= */
+
+
+#thank-you-hero{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ".thank-you-hero.";
+
+    >div{
+        grid-area: thank-you-hero;
+
+        #thank-you-hero-title{
+            
+        }
+
+        h1{
+            color: var(--forestGreen);
+            font-family: 'Montserrat', sans-serif;
+            font-size: rem-calc(36);
+            text-align: center;
+
+
+            @include lg{
+                font-size: rem-calc(56);
+            }
+        }
+    }
+}
