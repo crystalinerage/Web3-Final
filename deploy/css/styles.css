@@ -395,6 +395,47 @@ a {
 /* =============
     Header
 ============= */
+header li {
+  float: left;
+}
+header li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header ul button {
+  border: none;
+  background-color: var(--darkTeal);
+  border-radius: 23px;
+  color: white;
+  padding: 10px 15px;
+}
+header #burger-container {
+  grid-area: burger;
+  padding: 16px;
+}
+header #logo {
+  grid-area: burger;
+  padding: 16px;
+}
+header nav {
+  grid-area: burger;
+  padding: 16px;
+}
+
 /* =============
     Footer
 ============= */
