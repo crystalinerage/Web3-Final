@@ -441,6 +441,21 @@ header nav {
 ============= */
 footer {
   background-color: var(--darkTeal);
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 8px;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+footer ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  top: 0;
 }
 
 /* =============
