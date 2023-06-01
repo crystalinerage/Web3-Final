@@ -491,6 +491,10 @@ footer ul {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
+  padding-bottom: 36px;
+}
+#thank-you-hero > div {
+  padding-bottom: 36px;
 }
 #thank-you-hero > div button {
   background-color: var(--brightGreen);
