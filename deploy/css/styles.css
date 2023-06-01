@@ -397,11 +397,9 @@ a {
 ============= */
 header li {
   float: left;
-}
-header li a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: var(--lightCyan);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -450,8 +448,13 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
 }
+footer aside {
+  flex-direction: right;
+}
+footer #logos {
+  flex-direction: left;
+}
 footer ul {
-  float: left;
   list-style-type: none;
   margin: 0;
   padding: 15px;

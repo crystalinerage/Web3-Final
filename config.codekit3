@@ -89,6 +89,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 5421,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Twitter.png" : {
       "ft" : 32768,
       "iS" : 596,

@@ -13,10 +13,16 @@ footer{
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+aside{
+    flex-direction: right;
+}
 
 
+#logos{
+ flex-direction: left;
+}
     ul {
-        float: left;
+     
         list-style-type: none;
         margin: 0;
         padding: 15px; 
