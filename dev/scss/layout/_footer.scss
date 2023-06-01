@@ -2,31 +2,42 @@
     Footer
 ============= */
 
-footer{
+footer {
+    
+    padding: 24px 16px;
     background-color: var(--darkTeal);
-    color: white;
 
-    width: 100%;
-    display: block;
-    position: fixed;
-    padding: 8px;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-aside{
-    flex-direction: right;
-}
+    >div{
+        display: grid;
+        grid-template-columns: 30% auto;
+        // grid-template-areas: 
+        // "logo-footer links-footer"
+        // "logo social-media";
+        box-sizing: border-box;
+        width: 100%;
+
+        #logo-footer{
+            // grid-area: logo-footer;
+        }
 
 
-#logos{
- flex-direction: left;
-}
-    ul {
-     
-        list-style-type: none;
-        margin: 0;
-        padding: 15px; 
-        overflow: hidden;
-        top: 0;
+        #links-footer{
+            li{
+                margin-left: 8px;
+            }
+            // grid-area: logo-links;
+            display: flex;
+            font-size: rem-calc(16);
+            margin-bottom: 8px;
+        }
+
+
+        #social-media{
+           a{
+            margin-left: 8px;
+           }
+            // grid-area: social-media;
+        }
     }
 }
+

@@ -6,3 +6,42 @@
 a{
     text-decoration: none;
 }
+
+.show-menu {
+    display: block !important;
+}
+
+#main-menu{
+    display: none;
+
+    @include lg{
+        display: block;
+    }
+
+    ul{
+        text-align: right;
+
+        @include lg{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+        }
+        li{
+            margin-bottom: 24px;
+
+            @include lg{
+                margin-left: 16px;
+                margin-bottom: 0;
+            }
+
+            a:link, a:visited{
+
+
+                &:hover, &:active{
+
+                }
+            }
+        }
+    }
+}

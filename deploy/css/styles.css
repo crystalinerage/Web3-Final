@@ -367,6 +367,11 @@ body {
 /* =============
     Buttons
 ============= */
+button {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -392,74 +397,96 @@ a {
   text-decoration: none;
 }
 
+.show-menu {
+  display: block !important;
+}
+
+#main-menu {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #main-menu {
+    display: block;
+  }
+}
+#main-menu ul {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  #main-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+}
+#main-menu ul li {
+  margin-bottom: 24px;
+}
+@media (min-width: 1024px) {
+  #main-menu ul li {
+    margin-left: 16px;
+    margin-bottom: 0;
+  }
+}
 /* =============
     Header
 ============= */
-header li {
-  float: left;
-  display: block;
-  padding: 8px;
-  background-color: var(--lightCyan);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+header {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  padding: 24px 16px;
+  box-sizing: border-box;
 }
-header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
+@media (min-width: 1024px) {
+  header {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "logo nav";
+  }
 }
-header ul button {
-  border: none;
-  background-color: var(--darkTeal);
-  border-radius: 23px;
-  color: white;
-  padding: 10px 15px;
+header #logo-container {
+  grid-area: logo;
 }
 header #burger-container {
   grid-area: burger;
-  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-header #logo {
-  grid-area: burger;
-  padding: 16px;
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
 }
-header nav {
-  grid-area: burger;
-  padding: 16px;
+header #main-menu {
+  grid-area: nav;
 }
 
 /* =============
     Footer
 ============= */
 footer {
+  padding: 24px 16px;
   background-color: var(--darkTeal);
-  color: white;
+}
+footer > div {
+  display: grid;
+  grid-template-columns: 30% auto;
+  box-sizing: border-box;
   width: 100%;
-  display: block;
-  position: fixed;
-  padding: 8px;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
 }
-footer aside {
-  flex-direction: right;
+footer > div #links-footer {
+  display: flex;
+  font-size: 1rem;
+  margin-bottom: 8px;
 }
-footer #logos {
-  flex-direction: left;
+footer > div #links-footer li {
+  margin-left: 8px;
 }
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 15px;
-  overflow: hidden;
-  top: 0;
+footer > div #social-media a {
+  margin-left: 8px;
 }
 
 /* =============

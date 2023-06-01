@@ -2,54 +2,41 @@
     Header
 ============= */
 
-
 header{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 
-    li {
-        float: left;
+    display: grid;
+    grid-template-columns: 50% auto;
 
-        display: block;
-        padding: 8px;
-        background-color: var(--lightCyan);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-    
+    grid-template-areas: "logo burger"
+    "nav nav";
+    padding: 24px 16px;
+    box-sizing: border-box;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-
-    button{
-        border: none;
-        background-color: var(--darkTeal);
-        border-radius: 23px;
-        color:white;
-        padding: 10px 15px;
+    @include lg{
+        grid-template-columns: 20% auto;
+        grid-template-areas: "logo nav";
     }
-  }
+
+
+    #logo-container{
+        grid-area: logo;
+    }
 
     #burger-container{
         grid-area: burger;
-        padding: 16px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        @include lg{
+            display: none;
+        }
     }
 
-    #logo{
-        grid-area: burger;
-        padding: 16px;
-    }
-
-    nav{
-    grid-area: burger;
-    padding: 16px;
+    #main-menu{
+        grid-area: nav;
     }
 }
+
+
+
