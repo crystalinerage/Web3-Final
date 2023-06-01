@@ -439,6 +439,10 @@ header nav {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--darkTeal);
+}
+
 /* =============
     Thank You Page 
 ============= */
