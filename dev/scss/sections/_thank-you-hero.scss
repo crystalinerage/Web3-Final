@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ".thank-you-hero.";
+    text-align: center;
 
     >div{
         grid-area: thank-you-hero;
@@ -35,4 +36,16 @@
             text-align: center;
         }
     }
+>div{
+    button{
+        background-color: var(--brightGreen);
+        border: none;
+        border-radius: 23px;
+        color:white;
+        padding: 10px 15px;
+
+    }
+}
+
+
 }

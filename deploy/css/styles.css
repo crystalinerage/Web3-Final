@@ -466,6 +466,7 @@ footer ul {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ".thank-you-hero.";
+  text-align: center;
 }
 #thank-you-hero > div {
   grid-area: thank-you-hero;
@@ -490,4 +491,11 @@ footer ul {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
+}
+#thank-you-hero > div button {
+  background-color: var(--brightGreen);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  padding: 10px 15px;
 }
