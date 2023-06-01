@@ -37,6 +37,84 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Facebook.png" : {
+      "ft" : 32768,
+      "iS" : 336,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Facebook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/image 1.png" : {
+      "ft" : 32768,
+      "iS" : 3953,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/image 1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Instagram.png" : {
+      "ft" : 32768,
+      "iS" : 672,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Instagram.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/LinkedIn.png" : {
+      "ft" : 32768,
+      "iS" : 476,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/LinkedIn.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Twitter.png" : {
+      "ft" : 32768,
+      "iS" : 596,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/YouTube.png" : {
+      "ft" : 32768,
+      "iS" : 439,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/YouTube.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -55,6 +133,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/mainpage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/mainpage.html",
+      "oF" : 0
     },
     "\/dev\/content\/thank-you-hero.kit" : {
       "cB" : 0,
