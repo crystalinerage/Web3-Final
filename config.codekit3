@@ -155,60 +155,12 @@
       "oAP" : "\/deploy\/mainpage.html",
       "oF" : 0
     },
-    "\/dev\/checkout.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
-    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/features.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/features.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/gallery.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/gallery.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/product.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/product.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/reviews.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/reviews.html",
       "oF" : 0
     },
     "\/dev\/content\/thank-you-hero.kit" : {
