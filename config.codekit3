@@ -25,6 +25,14 @@
       "oAP" : "\/Assets\/In-class-S23.fig",
       "oF" : 0
     },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -259,20 +267,20 @@
       "oAP" : "\/deploy\/mainpage.html",
       "oF" : 0
     },
-    "\/dev\/checkout.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
-    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/checkout.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkoutform.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkoutform.html",
       "oF" : 0
     },
     "\/dev\/content\/features.kit" : {
