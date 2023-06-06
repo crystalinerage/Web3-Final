@@ -52,7 +52,7 @@
     },
     "\/deploy\/img\/gallery1.png" : {
       "ft" : 32768,
-      "iS" : 216865,
+      "iS" : 216867,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery1.png",
       "oF" : 0,
@@ -147,8 +147,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/printer.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -160,18 +160,18 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/printer2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/review1.png" : {
+    "\/deploy\/img\/reviews1.png" : {
       "ft" : 32768,
       "iS" : 109193,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/review1.png",
+      "oAP" : "\/deploy\/img\/reviews1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -180,11 +180,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/review2.png" : {
+    "\/deploy\/img\/reviews2.png" : {
       "ft" : 32768,
-      "iS" : 104257,
+      "iS" : 104255,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/review2.png",
+      "oAP" : "\/deploy\/img\/reviews2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -195,7 +195,7 @@
     },
     "\/deploy\/img\/reviews3.png" : {
       "ft" : 32768,
-      "iS" : 168641,
+      "iS" : 168639,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/reviews3.png",
       "oF" : 0,
@@ -275,19 +275,11 @@
       "oAP" : "\/dev\/checkout.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout.html",
-      "oF" : 0
-    },
     "\/dev\/content\/features.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/features.html",
       "oF" : 0
     },
@@ -295,7 +287,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/gallery.html",
       "oF" : 0
     },
@@ -303,7 +295,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product.html",
       "oF" : 0
     },
@@ -311,7 +303,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/reviews.html",
       "oF" : 0
     },
@@ -319,7 +311,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/thank-you-hero.html",
       "oF" : 0
     },
