@@ -12,6 +12,17 @@ header{
     "nav nav";
     padding: 24px 16px;
     box-sizing: border-box;
+    color: var(--darkTeal);
+nav{
+    #checkout-button{
+        background-color: var(--darkTeal);
+        border: none;
+        border-radius: 23px;
+        color:white;
+        padding: 10px 30px;
+    }
+}
+   
 
     @include lg{
         grid-template-columns: 20% auto;

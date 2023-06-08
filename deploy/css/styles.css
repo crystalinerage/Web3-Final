@@ -16,7 +16,7 @@ html {
   --darkTeal: #286460;
   --baseTeal: #4BA09B;
   --lightCyan: #C7F4F2;
-  --listestCyan: #C6F4F2;
+  --lightestCyan: #C6F4F2;
   --brightSage: #A6DFA9;
   --baseGreen: #4BA059;
   --brightGreen: #6DCC76;
@@ -439,6 +439,14 @@ header {
   grid-template-areas: "logo burger" "nav nav";
   padding: 24px 16px;
   box-sizing: border-box;
+  color: var(--darkTeal);
+}
+header nav #checkout-button {
+  background-color: var(--darkTeal);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  padding: 10px 30px;
 }
 @media (min-width: 1024px) {
   header {
@@ -479,14 +487,39 @@ footer > div {
 }
 footer > div #links-footer {
   display: flex;
-  font-size: 1rem;
+  font-size: 0.75rem;
   margin-bottom: 8px;
+  color: white;
 }
 footer > div #links-footer li {
   margin-left: 8px;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  footer > div #links-footer {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #links-footer {
+    font-size: 1.125rem;
+  }
 }
 footer > div #social-media a {
   margin-left: 8px;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  footer > div #social-media a {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div #social-media a {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 /* =============
@@ -532,4 +565,8 @@ footer > div #social-media a {
   border-radius: 23px;
   color: white;
   padding: 10px 30px;
+}
+
+#gallery {
+  height: 50%;
 }

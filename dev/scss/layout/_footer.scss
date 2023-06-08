@@ -10,33 +10,46 @@ footer {
     >div{
         display: grid;
         grid-template-columns: 30% auto;
-        // grid-template-areas: 
-        // "logo-footer links-footer"
-        // "logo social-media";
         box-sizing: border-box;
         width: 100%;
-
-        #logo-footer{
-            // grid-area: logo-footer;
-        }
 
 
         #links-footer{
             li{
                 margin-left: 8px;
+                margin-right: 8px;
             }
-            // grid-area: logo-links;
             display: flex;
-            font-size: rem-calc(16);
+            font-size: rem-calc(12);
             margin-bottom: 8px;
+            color: white;
+
+            
+        @include md{
+            font-size: rem-calc(16);
+        }
+        @include md{
+            font-size: rem-calc(18);
+        }
+
         }
 
 
         #social-media{
            a{
             margin-left: 8px;
+            margin-right: 8px;
+
+            @include md{
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+
+            @include lg{
+                margin-left: 24px;
+                margin-right: 24px;
+            }
            }
-            // grid-area: social-media;
         }
     }
 }

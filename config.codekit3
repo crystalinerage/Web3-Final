@@ -214,6 +214,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/Search.png" : {
+      "ft" : 32768,
+      "iS" : 948,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Search.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Twitter.png" : {
       "ft" : 32768,
       "iS" : 596,
@@ -265,6 +278,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/mainpage.html",
+      "oF" : 0
+    },
+    "\/dev\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/checkout.html",
       "oF" : 0
     },
     "\/dev\/checkout.kit" : {
@@ -527,6 +548,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
