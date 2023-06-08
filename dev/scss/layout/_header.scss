@@ -14,12 +14,12 @@ header{
     box-sizing: border-box;
     color: var(--darkTeal);
 nav{
-    #checkout-button{
-        background-color: var(--darkTeal);
+    .checkout-button{
+        background-color: var(--baseTeal);
         border: none;
         border-radius: 23px;
         color:white;
-        padding: 10px 30px;
+        padding: 10px 24px;
     }
 }
    

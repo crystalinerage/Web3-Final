@@ -441,12 +441,12 @@ header {
   box-sizing: border-box;
   color: var(--darkTeal);
 }
-header nav #checkout-button {
-  background-color: var(--darkTeal);
+header nav .checkout-button {
+  background-color: var(--baseTeal);
   border: none;
   border-radius: 23px;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 24px;
 }
 @media (min-width: 1024px) {
   header {
@@ -568,5 +568,20 @@ footer > div #social-media a {
 }
 
 #gallery {
-  height: 50%;
+  border: 1px solid red;
+}
+#gallery ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* =============
+    Product 
+============= */
+#product button {
+  background-color: var(--brightGreen);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  padding: 10px 30px;
 }
