@@ -2,10 +2,35 @@
 
 
 #gallery{
-   border: 1px solid red;
-   
-   ul{
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
+   h1{
+      color: var(--forestGreen);
+      margin-bottom: 24px;
+      margin-left: 16px;
    }
+   ul{
+      img{
+         height: 90%;
+      margin-left: 16px;
+      }
+      display: grid;
+
+      @include lg{
+         grid-template-columns: repeat(3,1fr);
+      }
+   
+   }
+
+#view-more{
+   display: flex;
+  margin-left: 16px;
+   margin-bottom: 16px;
+
+   background-color: var(--brightSage);
+   border: none;
+   border-radius: 23px;
+   color:white;
+   padding: 8px 20px;
+
+}
+
 }

@@ -567,12 +567,32 @@ footer > div #social-media a {
   padding: 10px 30px;
 }
 
-#gallery {
-  border: 1px solid red;
+#gallery h1 {
+  color: var(--forestGreen);
+  margin-bottom: 24px;
+  margin-left: 16px;
 }
 #gallery ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+}
+#gallery ul img {
+  height: 90%;
+  margin-left: 16px;
+}
+@media (min-width: 1024px) {
+  #gallery ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#gallery #view-more {
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  background-color: var(--brightSage);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  padding: 8px 20px;
 }
 
 /* =============
