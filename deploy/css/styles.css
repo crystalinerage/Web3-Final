@@ -605,3 +605,39 @@ footer > div #social-media a {
   color: white;
   padding: 10px 30px;
 }
+
+#reviews {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". reviews .";
+  padding-bottom: 32px;
+}
+#reviews > div {
+  margin-top: 40px;
+  grid-area: reviews;
+  text-align: justify;
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #reviews > div {
+    grid-area: reviews;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1,n1,n2,n2" "n3,n3,n4,n4" "..n5,n5..";
+    align-items: center;
+  }
+  #reviews > div .card {
+    width: 320px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+}
+#reviews > div .card {
+  background-color: var(--cream);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+#reviews > div .container {
+  padding: 16px;
+}
