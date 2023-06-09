@@ -2,7 +2,15 @@
     Typography
 ============= */
 
-h1,h2,h3,h4,p{
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2,h3,h4,p{
+    font-family: 'Inconsolata', monospace;
     margin: 0;
     padding: 0;
 }

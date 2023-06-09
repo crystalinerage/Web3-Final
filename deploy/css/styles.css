@@ -355,7 +355,14 @@ ul li {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, p {
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4, p {
+  font-family: "Inconsolata", monospace;
   margin: 0;
   padding: 0;
 }
@@ -611,13 +618,14 @@ footer > div #social-media a {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". reviews .";
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 #reviews #title h1 {
   color: var(--forestGreen);
   margin-left: 16px;
 }
 #reviews > div {
-  margin-top: 40px;
+  margin-top: 56px;
   grid-area: reviews;
   text-align: justify;
   display: grid;
@@ -634,7 +642,7 @@ footer > div #social-media a {
   height: 470px;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #reviews > div {
     grid-area: reviews;
     grid-template-columns: repeat(3, 1fr);

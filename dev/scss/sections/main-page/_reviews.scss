@@ -6,6 +6,7 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". reviews .";
     padding-bottom: 32px;
+    padding-top: 32px;
 #title{
     h1{
         color: var(--forestGreen);
@@ -14,7 +15,7 @@
 }
 
     >div{
-        margin-top: 40px;
+        margin-top: 56px;
         grid-area: reviews;
        text-align: justify;
        display: grid;
@@ -33,7 +34,7 @@ img{
         text-align: center;
     }
 
-       @include md{
+       @include lg{
         grid-area: reviews;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
