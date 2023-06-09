@@ -448,6 +448,15 @@ header {
   box-sizing: border-box;
   color: var(--darkTeal);
 }
+header nav input {
+  border-radius: 25px;
+  background: var(--lightestCyan);
+  padding: 8px 8px;
+}
+header nav button {
+  background: none;
+  border: none;
+}
 header nav .checkout-button {
   background-color: var(--baseTeal);
   border: none;
@@ -743,21 +752,28 @@ h1 {
   background-color: var(--brightSage);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 16px;
+  padding: 32px;
   border-radius: 10px;
 }
+#checkout .box form {
+  margin-bottom: 32px;
+}
 #checkout #review {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   color: var(--forestGreen);
   background-color: var(--brightSage);
   color: var(--forestGreen);
   background-color: var(--brightSage);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 16px;
+  padding: 18px;
   border-radius: 10px;
 }
+#checkout #review p {
+  margin-bottom: 32px;
+}
 #checkout .submit {
+  align-items: center;
   background-color: var(--brightGreen);
   border: none;
   border-radius: 23px;

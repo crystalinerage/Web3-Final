@@ -14,6 +14,16 @@ header{
     box-sizing: border-box;
     color: var(--darkTeal);
 nav{
+    input{
+        border-radius: 25px;
+        background: var(--lightestCyan);
+        padding: 8px 8px;
+    }
+
+    button{
+        background: none;
+        border: none;
+    }
     .checkout-button{
         background-color: var(--baseTeal);
         border: none;
