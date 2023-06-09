@@ -605,12 +605,48 @@ footer > div #social-media a {
 /* =============
     Product 
 ============= */
-#product button {
+@media (min-width: 768px) {
+  #product {
+    display: flex;
+    flex-direction: row;
+  }
+}
+#product h1 {
+  text-align: center;
+  margin: auto;
+  color: var(--forestGreen);
+  margin-bottom: 16px;
+}
+#product img {
+  padding-top: 40px;
+  height: 75vh;
+}
+#product .w3-button {
+  margin-left: 48px;
+  background-color: var(--baseGreen);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  padding: 10px 30px;
+}
+@media (min-width: 768px) {
+  #product .w3-button {
+    margin: auto;
+  }
+}
+#product .features {
+  margin-left: 48px;
   background-color: var(--brightGreen);
   border: none;
   border-radius: 23px;
   color: white;
   padding: 10px 30px;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #product .features {
+    margin: auto;
+  }
 }
 
 #reviews {
