@@ -731,11 +731,6 @@ footer > div #social-media a {
 /* =============
     Checkout
 ============= */
-h1 {
-  color: var(--forestGreen);
-  padding-bottom: 16px;
-}
-
 #checkout {
   align-items: center;
   display: flex;
@@ -744,6 +739,23 @@ h1 {
   grid-template-areas: ". checkout .";
   padding-bottom: 32px;
   padding-top: 32px;
+}
+@media (min-width: 768px) {
+  #checkout {
+    margin: 16px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 16px;
+  }
+}
+#checkout .title {
+  display: grid;
+  grid-template-columns: 32px auto 32px;
+  margin-bottom: 40px;
+  color: var(--forestGreen);
+}
+#checkout h1 {
+  margin-bottom: 16px;
 }
 #checkout .box {
   background-color: var(--brightSage);
@@ -758,6 +770,11 @@ h1 {
 #checkout .box form {
   margin-bottom: 32px;
 }
+@media (min-width: 768px) {
+  #checkout .box {
+    margin: 16px;
+  }
+}
 #checkout #review {
   margin-bottom: 20px;
   color: var(--forestGreen);
@@ -771,6 +788,12 @@ h1 {
 }
 #checkout #review p {
   margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  #checkout #review {
+    padding: 16px;
+    margin: 16px;
+  }
 }
 #checkout .submit {
   align-items: center;

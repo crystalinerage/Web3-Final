@@ -1,11 +1,6 @@
 /* =============
     Checkout
 ============= */
-h1{
-    color: var(--forestGreen);
-    padding-bottom: 16px;
-}
-
 
 #checkout{
     align-items: center;
@@ -15,6 +10,24 @@ h1{
    grid-template-areas: ". checkout .";
    padding-bottom: 32px;
    padding-top: 32px;
+
+   @include md{
+    margin: 16px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 16px;
+   }
+   
+   .title{
+    display: grid;
+    grid-template-columns: 32px auto 32px;
+    margin-bottom: 40px;
+    color: var(--forestGreen);
+}
+
+   h1{
+    margin-bottom: 16px;
+   }
     
     .box{
         background-color: var(--brightSage);
@@ -28,6 +41,10 @@ h1{
 
         form{
             margin-bottom: 32px;
+        }
+
+        @include md{
+            margin: 16px;
         }
     }
 
@@ -44,6 +61,11 @@ h1{
 
         p{
             margin-bottom: 32px;
+        }
+
+        @include md{
+            padding: 16px;
+            margin: 16px;
         }
     }
 
